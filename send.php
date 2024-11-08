@@ -38,8 +38,8 @@ if (isset($_POST["send"])) {
         $mail->Port       = 465;
 
         $mail->setFrom('usamabadarbasra@gmail.com', 'Contact Form');
-        $mail->addAddress('usamabadar281@gmail.com', 'CEO Email');
-        // $mail->addAddress('rafat.dxb@gmail.com', 'CEO Email');
+        // $mail->addAddress('usamabadar281@gmail.com', 'CEO Email');
+        $mail->addAddress('rafat.dxb@gmail.com', 'CEO Email');
 
         
 
